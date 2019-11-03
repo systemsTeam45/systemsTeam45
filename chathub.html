@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <head>
 
   <meta charset="utf-8">
@@ -9,24 +13,24 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Systems</title>
+  <title>SB Admin - Blank Page</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
-  <!-- <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet"> -->
-  <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="home.html">Systems coursework</a>
+    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -83,143 +87,78 @@
           <span>Home</span>
         </a>
       </li>
-		<li class="nav-item active">
+    <li class="nav-item active">
         <a class="nav-link" href="search.html">
           <i class="fas fa-fw fa-search"></i>
           <span>Search</span>
         </a>
       </li>
-		<li class="nav-item active">
-        <a class="nav-link" href="chathub.html">
+    <li class="nav-item active">
+        <a class="nav-link" href="chat.html">
           <i class="fas fa-fw fa-mail-bulk"></i>
           <span>Chat</span>
         </a>
       </li>
-		<li class="nav-item active">
+    <li class="nav-item active">
         <a class="nav-link" href="coop.html">
           <i class="fas fa-fw fa-users-cog"></i>
           <span>Cooperatives</span>
         </a>
       </li>
-		<li class="nav-item active">
+    <li class="nav-item active">
         <a class="nav-link" href="ngo.html">
           <i class="fas fa-fw fa-hand-holding-heart"></i>
           <span>NGOs</span>
         </a>
       </li>
-<!--
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Login Screens:</h6>
-          <a class="dropdown-item" href="login.html">Login</a>
-          <a class="dropdown-item" href="register.html">Register</a>
-          <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-          <div class="dropdown-divider"></div>
-          <h6 class="dropdown-header">Other Pages:</h6>
-          <a class="dropdown-item" href="404.html">404 Page</a>
-          <a class="dropdown-item" href="blank.html">Blank Page</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-      </li>
--->
     </ul>
 
     <div id="content-wrapper">
       <div class="container-fluid">
-		  <div class="container">
-			<div class="row">
-			  <div class="col-md-3 col-sm-5 mb-3">
-				 <img src="images/anon.png" alt="Avatar" class="rounded-circle img-fluid"> 
-			  </div>
-
-			  <div class="col-md-3 col-sm-5 mb-3 col-xl-9">
-				   <font size="7">Name<br></font>
-				   <font size="5">Age: 47<br></font>
-				   <font size="5">Activity Level: Very active</font>
-			  </div>
+        <div class="row">
+			<div class="col-md-7 col-sm-5 mb-3">
+				<h1 class="text-center" size="7"><strong>Chat Rooms</strong></h1>
 			</div>
-		  </div>
-      </div>
-		
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-md-3 col-sm-5 mb-3">
-				<h1 class="text-center">Updates</h1>
-			  </div>
-			  <div class="col-md-1 col-sm-5 mb-3">
-				<h1 class="text-center"></h1>
-			  </div>
-			  <div class="col-md-2 col-sm-5 mb-3">
-				<h3 class="text-center">Cooperatives</h3>
-			  </div>
-				<div class="col-md-4 col-sm-5 mb-3">
-					<h1 class="text-center">Map</h1>
-			  </div>
-			  <div class="col-md-2 col-sm-5 mb-3">
-				<h3 class="text-center">NGOs</h3>
-			  </div>
-			  <div class="col-md-3 col-sm-5 mb-3">
-				  <ul class="list-group">
-			  <li class="list-group-item d-flex justify-content-between align-items-center">
-				Women's Cooperatives have been making strides in Nigeria!
-				<span class="badge badge-primary badge-pill">1</span>
-			  </li>
-			  <li class="list-group-item d-flex justify-content-between align-items-center">
-				New NGO tackling female genital mutilation now available in 47 countries
-				<span class="badge badge-primary badge-pill">2</span>
-			  </li>
-			  <li class="list-group-item d-flex justify-content-between align-items-center">
-				New cooperaive opportunity in your area!
-				<span class="badge badge-primary badge-pill">1</span>
-			  </li>
-			</ul>
-			  </div>
-			  <div class="col-md-1 col-sm-5 mb-3">
-          <span class="vertical-linehome"></span>
-		  	  </div>
-			  <div class="col-md-2 col-sm-5 mb-3">
-			 	 <ul>
-				  <li>EducationForWomen</li>
-				  <li>ShePlusPlus</li>
-				  <li>Women Investing</li>
-				  <li>Action against FGM</li>
-				  <li>Women Advocates</li>
-				  <li>Women in Finance</li>
-				  <li>HealthHelp</li>
-				</ul> 
-		  	  </div>
-		    <div class="col-md-4 col-sm-5 mb-3">
-			 	<div class="google-map">
+			<div class="col-md-5 col-sm-5 mb-3">
+				<h1 class="text-center" size="7"><strong>Chat Bots</strong></h1>
+			</div>
+	    </div>
+	    <div class="row">
+			<div class="col-md-3 col-sm-5 mb-3">
+				<div class="list-group">
+				  <a href="chat.html" class="list-group-item list-group-item-action">Women Investing</a>
+				  <a href="chat.html" class="list-group-item list-group-item-action">Action against FGM</a>
+				  <a href="chat.html" class="list-group-item list-group-item-action">ActionAid UK</a>
+				  <a href="chat.html" class="list-group-item list-group-item-action">Women in Finance</a>
+				  <a href="chat.html" class="list-group-item list-group-item-action">ShePlusPlus</a>
+				  <a href="chat.html" class="list-group-item list-group-item-action">EducationForWomen</a>
+				</div>
+			</div>
+			<div class="col-md-1 col-sm-5 mb-3">
+				<span class="vertical-linehome"></span>
+			</div>
+	      <div class="col-md-3 col-sm-5 mb-3">
+				<div class="google-map">
                 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39709.999823924496!2d-0.1776499474549407!3d51.533852687589324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2f69173579%3A0xd008c67faecc133e!2sUniversity+College+London!5e0!3m2!1sen!2suk!4v1566178511597!5m2!1sen!2suk" allowfullscreen></iframe>
                 </div>
-		  	  </div>
-			  <div class="col-md-2 col-sm-5 mb-3">
-			 	 <ul>
-				  <li>Womankind Worldwide</li>
-				  <li>Women For Refugee Women</li>
-				  <li>ActionAid UK</li>
-				  <li>Refugee Womens Association</li>
-				  <li>Women and Children First</li>
-				  <li>Forward</li>
-				</ul> 
-		  	  </div>
-		</div>
-	  </div>
-		
-	  <!-- Sticky Footer -->
+	  	  </div>
+			<div class="col-md-1 col-sm-5 mb-3">
+				<span class="vertical-linehub"></span>
+			</div>
+              <div class="col-md-3 col-sm-5 mb-3">
+				  <h3>The following AI chat bots are available:</h3><br>
+				<ul class="list-group">
+				  <a href="chat.html" class="list-group-item"><i class="fas fa-male text-info mx-2"></i>Physical Health</a>
+				  <a href="chat.html" class="list-group-item"><i class="fas fa-venus text-warning mx-2"></i>Mental Health</a>
+				  <a href="chat.html" class="list-group-item"><i class="fas fa-gavel text-danger mx-2"></i>Worries</a>
+				</ul>
+              </div>
+		 </div>
+	    </div>
+      </div>
+      <!-- /.container-fluid -->
+
+      <!-- Sticky Footer -->
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
@@ -227,11 +166,7 @@
           </div>
         </div>
       </footer>
-
     </div>
-    <!-- /.content-wrapper -->
-
-  </div>
   <!-- /#wrapper -->
 
   <!-- Scroll to Top Button-->
@@ -260,23 +195,14 @@
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-  <script src="js/bootstrap-4.3.1.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Page level plugin JavaScript-->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-  <script src="vendor/datatables/jquery.dataTables.js"></script>
-  <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin.min.js"></script>
 
-  <!-- Demo scripts for this page-->
-  <script src="js/demo/datatables-demo.js"></script>
-  <script src="js/demo/chart-area-demo.js"></script>
 </body>
 
 </html>
