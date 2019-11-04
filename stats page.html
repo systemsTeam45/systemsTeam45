@@ -182,39 +182,84 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card card-user">
-                            <div class="image">
-                                <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Email Statistics</h4>
+                                <p class="category">Last Campaign Performance</p>
                             </div>
                             <div class="content">
-                                <div class="author">
-                                     <a href="#">
-                                    <img class="avatar border-gray" src="assets/img/default-avatar.png" alt="..."/>
+                                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
 
-                                      <h4 class="title">Ashanti<br />
-                                         <small>Mitchell</small>
-                                      </h4>
-                                    </a>
+                                <div class="footer">
+                                    <div class="legend">
+                                        <i class="fa fa-circle text-info"></i> Open
+                                        <i class="fa fa-circle text-danger"></i> Bounce
+                                        <i class="fa fa-circle text-warning"></i> Unsubscribe
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
+                                    </div>
                                 </div>
-                                <p class="description text-center"> Age: 27 <br>
-                                                    Activity: Very High <br>
-                                                    Height: 5"2 <br>
-                                                    Current Health Goal: Run 2 Miles <br>
-                                                    Social concern: Women's Education <br>
-                                </p>
-                            </div>
-                            <hr>
-                            <div class="text-center">
-                                <a href="user.html" class="btn btn-simple">Edit profile</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Users Behavior</h4>
+                                <p class="category">24 Hours performance</p>
+                            </div>
+                            <div class="content">
+                                <div id="chartHours" class="ct-chart"></div>
+                                <div class="footer">
+                                    <div class="legend">
+                                        <i class="fa fa-circle text-info"></i> Open
+                                        <i class="fa fa-circle text-danger"></i> Click
+                                        <i class="fa fa-circle text-warning"></i> Click Second Time
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="fa fa-history"></i> Updated 3 minutes ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">2014 Sales</h4>
+                                <p class="category">All products including Taxes</p>
+                            </div>
+                            <div class="content">
+                                <div id="chartActivity" class="ct-chart"></div>
+
+                                <div class="footer">
+                                    <div class="legend">
+                                        <i class="fa fa-circle text-info"></i> Tesla Model S
+                                        <i class="fa fa-circle text-danger"></i> BMW 5 Series
+                                    </div>
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="fa fa-check"></i> Data information certified
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
                         <div class="card ">
                             <div class="header">
                                 <h4 class="title">Tasks</h4>
-                                <p class="category">Your personalised To-Do List</p>
+                                <p class="category">Backend development</p>
                             </div>
                             <div class="content">
                                 <div class="table-full-width">
@@ -222,12 +267,12 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox1" type="checkbox">
-                                                        <label for="checkbox1"></label>
-                                                    </div>
+													<div class="checkbox">
+						  							  	<input id="checkbox1" type="checkbox">
+						  							  	<label for="checkbox1"></label>
+					  						  		</div>
                                                 </td>
-                                                <td>Read "The Great Expectations"</td>
+                                                <td>Sign contract for "What are conference organizers afraid of?"</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                         <i class="fa fa-edit"></i>
@@ -239,12 +284,12 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox2" type="checkbox" checked>
-                                                        <label for="checkbox2"></label>
-                                                    </div>
+													<div class="checkbox">
+						  							  	<input id="checkbox2" type="checkbox" checked>
+						  							  	<label for="checkbox2"></label>
+					  						  		</div>
                                                 </td>
-                                                <td>Learn how to code in C++</td>
+                                                <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                         <i class="fa fa-edit"></i>
@@ -256,13 +301,13 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox3" type="checkbox">
-                                                        <label for="checkbox3"></label>
-                                                    </div>
+													<div class="checkbox">
+						  							  	<input id="checkbox3" type="checkbox">
+						  							  	<label for="checkbox3"></label>
+					  						  		</div>
                                                 </td>
-                                                <td>Speak to Antoinette about womens education incentive
-                                                </td>
+                                                <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+												</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                         <i class="fa fa-edit"></i>
@@ -274,12 +319,12 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox4" type="checkbox" checked>
-                                                        <label for="checkbox4"></label>
-                                                    </div>
+													<div class="checkbox">
+						  							  	<input id="checkbox4" type="checkbox" checked>
+						  							  	<label for="checkbox4"></label>
+					  						  		</div>
                                                 </td>
-                                                <td>Do coursework!</td>
+                                                <td>Create 4 Invisible User Experiences you Never Knew About</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                         <i class="fa fa-edit"></i>
@@ -291,12 +336,29 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="checkbox">
-                                                        <input id="checkbox5" type="checkbox">
-                                                        <label for="checkbox5"></label>
-                                                    </div>
+													<div class="checkbox">
+						  							  	<input id="checkbox5" type="checkbox">
+						  							  	<label for="checkbox5"></label>
+					  						  		</div>
                                                 </td>
-                                                <td>Check Emails</td>
+                                                <td>Read "Following makes Medium better"</td>
+                                                <td class="td-actions text-right">
+                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
+                                                        <i class="fa fa-edit"></i>
+                                                    </button>
+                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+													<div class="checkbox">
+						  							  	<input id="checkbox6" type="checkbox" checked>
+						  							  	<label for="checkbox6"></label>
+					  						  		</div>
+                                                </td>
+                                                <td>Unfollow 5 enemies from twitter</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                         <i class="fa fa-edit"></i>
@@ -316,74 +378,6 @@
                                         <i class="fa fa-history"></i> Updated 3 minutes ago
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="card ">
-                            <div class="header">
-                                <h4 class="title">Updates</h4>
-                                <p class="category">Below are updates from NGOs and Cooperatives in your area</p>
-                            </div>
-                            <div class="content">
-                                <ul class="list-group">
-                                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Women's Cooperatives have been making strides in Nigeria!
-                                    <span class="badge badge-primary badge-pill">2</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    New NGO tackling female genital mutilation now available in 47 countries
-                                    <span class="badge badge-primary badge-pill">1</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    New cooperaive opportunity in your area!
-                                    <span class="badge badge-primary badge-pill">4</span>
-                                  </li>
-                                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    New school opened in Sierra Leone
-                                    <span class="badge badge-primary badge-pill">1</span>
-                                  </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">Find NGOs and Cooperatives near You!</h4>
-                                <p class="category">Write something important here</p>
-                            </div>
-                            <div class="content">
-                                <div class="map">
-                                    <div class="google-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39709.999823924496!2d-0.1776499474549407!3d51.533852687589324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2f69173579%3A0xd008c67faecc133e!2sUniversity+College+London!5e0!3m2!1sen!2suk!4v1566178511597!5m2!1sen!2suk" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">List of NGOS and Cooperatives Near You</h4>
-                                <p class="category">Write something important here</p>
-                            </div>
-                            <div class="content">
-                                <ul>
-                                  <li>Womankind Worldwide</li>
-                                  <li>Women For Refugee Women</li>
-                                  <li>ActionAid UK</li>
-                                  <li>Refugee Womens Association</li>
-                                  <li>Women and Children First</li>
-                                  <li>Forward</li>
-                                </ul> 
                             </div>
                         </div>
                     </div>
