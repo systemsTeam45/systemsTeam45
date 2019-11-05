@@ -1,14 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 	<title>Light Bootstrap Dashboard by Creative Tim</title>
 
@@ -98,35 +97,36 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="chat_window">
-                        <div class="top_menu">
-                            <div class="buttons">
-                                <div class="button close">
-                                    
-                                </div>
-                                <div class="button minimize">
-                                    
-                                </div>
-                                <div class="button maximize"></div>
-                            </div><div class="title">Chat</div>
-                        </div><ul class="messages"></ul>
-                        <div class="bottom_wrapper clearfix">
-                            <div class="message_input_wrapper">
-                                <input class="message_input" placeholder="Type your message here..." /></div>
-                                <div class="send_message">
-                                    <div class="icon"></div>
-                                    <div class="text">Send</div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">Chat Rooms</h4>
+                                <p class="category">This is a friendly chat room! Find people in your local area and speak to them about you worries, concerns and any thing in general! You can even create a group with friends and begin working on social issues together!</p>
+                            </div>
+                            <div class="content">
+
+                                <a id="cbutton" href="chatroom.html" class="btn section-btn">Enter</a>
+                                <!-- insert button -->
+
                             </div>
                         </div>
-                        <div class="message_template">
-                            <li class="message">
-                                <div class="avatar"></div>
-                                <div class="text_wrapper">
-                                    <div class="text"></div>
-                                </div>
-                            </li>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">Chat Bots</h4>
+                                <p class="category">Alternatively, make use of our intelligent AI chat bots that can fetch information from X5GON directly and provide you with human like responses in lightning fast speed!</p>
+                            </div>
+                            <div class="content">
+
+                                <a id="cbutton" href="chatbot.html" class="btn section-btn">Enter</a>
+                                <!-- insert button -->
+
+                            </div>
                         </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -212,8 +212,8 @@ body {
   height: 50px;
   display: inline-block;
   border-radius: 50px;
-  background-color: #a3d063;
-  border: 2px solid #a3d063;
+  background-color: #9063d0;
+  border: 2px solid #9063d0;
   color: #fff;
   cursor: pointer;
   transition: all 0.2s linear;
@@ -221,7 +221,7 @@ body {
   float: right;
 }
 .bottom_wrapper .send_message:hover {
-  color: #a3d063;
+  color: #9063d0;
   background-color: #fff;
 }
 .bottom_wrapper .send_message .text {
@@ -234,19 +234,31 @@ body {
 .message_template {
   display: none;
 }
-=======
-  .google-map-ngo {
-    border-radius: 100%;
-    width: 600px;
-    height: 600px;
-    overflow: hidden;
-    margin: auto;
+>>>>>>> d241537802ec9c77c2574715ac8d55dd72922368
+
+/*
+Chat hub page
+*/
+
+#cbutton {
+	background: #9063d0;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 15px 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.google-map-ngo iframe {
-    border-radius: 100%;
-    border: 0;
-    width: 600px;
-    height: 600px;
-  }
->>>>>>> d241537802ec9c77c2574715ac8d55dd72922368
+/*
+  #cbutton:hover,
+  #cbutton:focus {
+    background: #00F260; 
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #0575E6, #00F260);
+    border-color: transparent;
+    color: #393939;
+  }*/
