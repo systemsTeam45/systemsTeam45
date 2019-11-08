@@ -11,7 +11,6 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -33,14 +32,6 @@
 
 <div class="wrapper">
     <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
-
-    <!--
-
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
-
-    -->
-
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="dashboard.html" class="simple-text">
@@ -213,62 +204,41 @@
                                 <div class="content table-responsive table-full-width">
                                 <table class="table table-hover table-striped">
                                     <thead>
-                                        <th>Name</th>
-                                        <th>Coorporate projects</th>
-                                        <th>Country</th>
-                                        <th>City</th>
+                                        <th>Feature</th>
+                                        <th>Mean Time on Feature</th>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Dakota Rice</td>
-                                            <td>12</td>
-                                            <td>Niger</td>
-                                            <td>Oud-Turnhout</td>
+                                            <td>Dashboard</td>
+                                            <td>2 minutes</td>
                                         </tr>
                                         <tr>
-                                            <td>Minerva Hooper</td>
-                                            <td>9</td>
-                                            <td>Curaçao</td>
-                                            <td>Sinaai-Waas</td>
+                                            <td>User</td>
+                                            <td>3 minutes</td>
                                         </tr>
                                         <tr>
-                                            <td>Sagereina Rodriguez</td>
-                                            <td>7</td>
-                                            <td>Ghana</td>
-                                            <td>Accra</td>
+                                            <td>Search</td>
+                                            <td>9.5 minutes</td>
                                         </tr>
                                         <tr>
-                                            <td>Philipa Chaney</td>
-                                            <td>7</td>
-                                            <td>Sierra Leone</td>
-                                            <td>Freetown</td>
+                                            <td>Chat</td>
+                                            <td>21 minutes</td>
                                         </tr>
                                         <tr>
-                                            <td>Dorie Greene</td>
-                                            <td>5</td>
-                                            <td>Malawi</td>
-                                            <td>Feldkirchen in Kärnten</td>
+                                            <td>Cooperatives Page</td>
+                                            <td>2.9 minutes</td>
                                         </tr>
                                         <tr>
-                                            <td>Masonella Porter</td>
-                                            <td>4</td>
-                                            <td>Congo</td>
-                                            <td>Kinshasa</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Sawia Emirzade</td>
-                                            <td>2</td>
-                                            <td>Egypt</td>
-                                            <td>Aswan</td>
+                                            <td>NGO Page</td>
+                                            <td>2.2 Minutes</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                        </div>
-
+                            </div>
                                 <div class="footer">
                                     <hr>
                                     <div class="stats">
-                                        <i class="fa fa-check"></i> Statistics show most socially impactful users
+                                        <i class="fa fa-check"></i> Statistics show average time spent on features
                                     </div>
                                 </div>
                             </div>
@@ -295,11 +265,7 @@
 
     <!--  Google Maps Plugin    -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
-
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
 
 	<script type="text/javascript">
@@ -309,11 +275,10 @@
 
         	$.notify({
             	icon: 'pe-7s-gift',
-            	message: "Welcome Ashanti!"
-
+            	message: "This is a statistics page. This would usually not exist in the actual website, but as per the requirements, has been added to illustrate data Insights and logs of our website's feature usage to inform developers for improvements"
             },{
                 type: 'info',
-                timer: 4000
+                timer: 5000
             });
 
     	});

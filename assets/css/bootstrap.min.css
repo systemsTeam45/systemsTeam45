@@ -21,8 +21,6 @@
     height: 300px;
   }
 
-<<<<<<< HEAD
-
 .google-map-ngo {
     border-radius: 100%;
     width: 300px;
@@ -234,7 +232,6 @@ body {
 .message_template {
   display: none;
 }
->>>>>>> d241537802ec9c77c2574715ac8d55dd72922368
 
 /*
 Chat hub page
@@ -261,9 +258,6 @@ Chat hub page
   width: 100%;
 }
 
-/*#movedown {
-	margin-top: 25%;
-}*/
 
 /*chatroom page contact list*/
 

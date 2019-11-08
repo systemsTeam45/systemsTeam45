@@ -19,12 +19,6 @@
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
-
-
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
-
-
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
@@ -36,9 +30,6 @@
 
 <div class="wrapper">
     <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
-
-    <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
-
     <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
@@ -91,29 +82,10 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Chat</a>
+                            <a class="navbar-brand" href="chat.html">Chat</a>
                         </div>
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-left">
-        
-                                <!-- <li class="dropdown">
-                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                            <i class="fas fa-chart-line"></i>
-                                            <b class="caret hidden-lg hidden-md"></b>
-                                            <p class="hidden-lg hidden-md">
-                                                5 Notifications
-                                                <b class="caret"></b>
-                                            </p>
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                        <li><a href="#">Notification 1</a></li>
-                                        <li><a href="#">Notification 2</a></li>
-                                        <li><a href="#">Notification 3</a></li>
-                                        <li><a href="#">Notification 4</a></li>
-                                        <li><a href="#">Another notification</a></li>
-                                      </ul>
-                                </li> -->
-        
                                 <li>
                                    <a href="stats.html">
                                         <i class="fas fa-chart-line"></i>
@@ -129,26 +101,6 @@
                                        <p>Account</p>
                                     </a>
                                 </li>
-        
-                                <!-- <li class="dropdown">
-                                      <a href="user.html" class="dropdown-toggle" data-toggle="dropdown">
-                                            <p>
-                                                Dropdown
-                                                <b class="caret"></b>
-                                            </p>
-        
-                                      </a>
-                                      <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                      </ul>
-                                </li> -->
-        
                                 <li>
                                     <a href="index.html">
                                         <p>Log out</p>
@@ -174,8 +126,6 @@
                             <div class="content">
                                 <img id="chatroompic" src="assets/img/chatroom.jpg">
                                 <a class="btn btn-primary btn-block" href="chatroom.html">Enter</a>
-                                <!-- insert button -->
-
                             </div>
                         </div>
                     </div>
@@ -189,8 +139,6 @@
                             <div class="content">
                                 <img id="chatbotpic" src="assets/img/chatbot.jpg">
                                 <a class="btn btn-primary btn-block" href="chatbot.html">Enter</a>
-                                <!-- insert button -->
-
                             </div>
                         </div>
                     </div>
@@ -216,12 +164,23 @@
 
     <!--  Google Maps Plugin    -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
-
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            demo.initChartist();
+
+            $.notify({
+                icon: 'fa fa-comment',
+                message: "This is the chat hub, where users can choose from enterring a chat room and speaking to different people, or speak to our super-intelligent AI bots which extract data straight from X5GON, The Lancet Maternal Health Series, worldbank.org, the NHS and many more"
+            },{
+                type: 'info',
+                timer: 5000
+            });
+
+        });
+    </script>
 
 </html>

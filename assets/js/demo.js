@@ -256,5 +256,22 @@ demo = {
                 align: align
             }
         });
-	}
+	},
+
+  showProfileNotification: function(from, align){
+      color = Math.floor((Math.random() * 4) + 1);
+
+      $.notify({
+          icon: "fa fa-user",
+          message: "Saved! Your Profile has been updated."
+
+        },{
+            type: type[color],
+            timer: 4000,
+            placement: {
+                from: from,
+                align: align
+            }
+        });
+  },
 }
