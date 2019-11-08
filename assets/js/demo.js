@@ -1,6 +1,5 @@
 type = ['','info','success','warning','danger'];
 
-
 demo = {
     initPickColor: function(){
         $('.pick-class-label').click(function(){
@@ -242,12 +241,12 @@ demo = {
         marker.setMap(map);
     },
 
-	showNotification: function(from, align){
+	showSavedNotification: function(from, align){
     	color = Math.floor((Math.random() * 4) + 1);
 
     	$.notify({
-        	icon: "pe-7s-gift",
-        	message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
+        	icon: "fa fa-calendar-week",
+        	message: "Saved! This event will now appear in your calendar."
 
         },{
             type: type[color],
@@ -258,6 +257,4 @@ demo = {
             }
         });
 	}
-
-
 }

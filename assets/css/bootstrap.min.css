@@ -461,7 +461,7 @@ Chat hub page
   width:100%;
 }
 .member_list li:hover {
-  background: #428bca none repeat scroll 0 0;
+  background: #6f42c1 none repeat scroll 0 0;
   color: #fff;
   cursor:pointer;
 }
